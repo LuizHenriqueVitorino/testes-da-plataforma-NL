@@ -18,6 +18,3 @@ class Browser(object):
         self.driver.execute_script('window.LocalStorage.clear()')
         self.driver.execute_script('window.SessionStorage.clear()')
         self.driver.refresh()
-
-
-# Modificação
