@@ -1,0 +1,55 @@
+1662743913139	geckodriver	INFO	Listening on 127.0.0.1:49041
+1662743913545	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "55347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUrhlS6"
+Gtk-Message: 14:18:33.649: Failed to load module "canberra-gtk-module"
+Gtk-Message: 14:18:33.650: Failed to load module "canberra-gtk-module"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+amdgpu: os_same_file_description couldn't determine if two DRM fds reference the same file description.
+If they do, bad things may happen!
+1662743914406	Marionette	INFO	Marionette enabled
+1662743914411	Marionette	INFO	Listening on port 41771
+WebDriver BiDi listening on ws://localhost:55347
+Read port: 41771
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662743915934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUrhlS6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55347/devtools/browser/0e81e2b2-71a2-41c6-a2a7-b14607f3154c
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript warning: https://www.youtube.com/s/player/977792fa/player_ias.vflset/en_US/base.js, line 9413: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662743976455	Marionette	INFO	Stopped listening on port 41771
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662745975347	geckodriver	INFO	Listening on 127.0.0.1:32793
+1662745975766	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "49967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilek5ISf0"
+Gtk-Message: 14:52:55.877: Failed to load module "canberra-gtk-module"
+Gtk-Message: 14:52:55.879: Failed to load module "canberra-gtk-module"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+amdgpu: os_same_file_description couldn't determine if two DRM fds reference the same file description.
+If they do, bad things may happen!
+1662745976661	Marionette	INFO	Marionette enabled
+1662745976666	Marionette	INFO	Listening on port 41777
+Read port: 41777
+WebDriver BiDi listening on ws://localhost:49967
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662745978226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek5ISf0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49967/devtools/browser/b7b07b8e-b608-4f68-8126-7a9d01ae0268
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/977792fa/player_ias.vflset/en_US/base.js, line 9413: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

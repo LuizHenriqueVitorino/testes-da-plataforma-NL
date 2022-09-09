@@ -7,7 +7,7 @@ Funcionalidade: realizar login na plataforma NL
         Dado que acesso a página do NL
 
     Cenário: acessar página NL e realizar login
-        Dado que preencho o campo email
+        Dado que preencho o campo cpd
         Dado que preencho o campo senha
         Quando clico no botão entrar
         Então devo logar no sistema

@@ -1,13 +1,16 @@
 from behave import *
+from pages.login_sei_page import NLLoginPage
+
+nlLoginPage = NLLoginPage()
 
 @given(u'que acesso a página do NL')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Given que acesso a página do NL')
+    nlLoginPage.acessar_Nl("https://prpi.ifce.edu.br/nl")
 
 
-@given(u'que preencho o campo email')
+@given(u'que preencho o campo cpf')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Given que preencho o campo email')
+    nlLoginPage.escrever_cpf('12312312312')
 
 
 @given(u'que preencho o campo senha')
