@@ -1,5 +1,5 @@
 from behave import *
-from pages.login_sei_page import NLLoginPage
+from pages.login_nl_page import NLLoginPage
 from browser import Browser
 
 nlLoginPage = NLLoginPage()
