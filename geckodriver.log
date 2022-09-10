@@ -53,3 +53,28 @@ DevTools listening on ws://localhost:49967/devtools/browser/b7b07b8e-b608-4f68-8
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
 JavaScript warning: https://www.youtube.com/s/player/977792fa/player_ias.vflset/en_US/base.js, line 9413: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662766872863	geckodriver	INFO	Listening on 127.0.0.1:40135
+1662766873369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileezRpeq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662766875659	Marionette	INFO	Marionette enabled
+1662766875667	Marionette	INFO	Listening on port 34071
+Read port: 34071
+WebDriver BiDi listening on ws://localhost:57901
+1662766875913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileezRpeq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57901/devtools/browser/39815775-a567-4239-aa3b-7524639bac98
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/977792fa/player_ias.vflset/en_US/base.js, line 9413: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662766889613	Marionette	INFO	Stopped listening on port 34071
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
