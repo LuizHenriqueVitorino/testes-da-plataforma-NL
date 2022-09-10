@@ -1,5 +1,6 @@
 from behave import *
 from pages.login_sei_page import NLLoginPage
+from browser import Browser
 
 nlLoginPage = NLLoginPage()
 
@@ -10,19 +11,19 @@ def step_impl(context):
 
 @given(u'que preencho o campo cpf')
 def step_impl(context):
-    nlLoginPage.escrever_cpf('12312312312')
+    nlLoginPage.escrever_cpf('...')
 
 
 @given(u'que preencho o campo senha')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Given que preencho o campo senha')
+    nlLoginPage.escrever_senha('...')
 
 
 @when(u'clico no botão entrar')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When clico no botão entrar')
+    nlLoginPage.clicar_acessar()
 
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Then devo logar no sistema')
+    assert Browser.driver.title != 'Menu Principal'

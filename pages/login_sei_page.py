@@ -5,9 +5,9 @@ from browser import Browser
 
 class NLLoginPageLocator(object):
     # TODO Escrever os locators nescessário para realizar o ligin na pagina NL
-    ID_CPF = "id_sc_field_login"
-    INPUT_CPF = "[id='id_sc_field_login']"
-    INPUT_SENHA = "[id='id_sc_field_pswd']"
+    INPUT_CPF = "id_sc_field_login"
+    INPUT_SENHA = "id_sc_field_pswd"
+    CLICK_ACESSAR = "//div/input[@class='button']"
 
 class NLLoginPage(Browser):
     # def escrever_email(self):
@@ -16,6 +16,14 @@ class NLLoginPage(Browser):
         self.driver.get(url)
 
     def escrever_cpf(self, cpf):
-        inputCPF = self.driver.find_element(By.ID, NLLoginPageLocator.ID_EMAIL)
+        inputCPF = self.driver.find_element(By.ID, NLLoginPageLocator.INPUT_CPF)
         inputCPF.send_keys(cpf)
+
+    def escrever_senha(self, senha): 
+        input_senha = self.driver.find_element(By.ID, NLLoginPageLocator.INPUT_SENHA)
+        input_senha.send_keys(senha)
+    
+    def clicar_acessar(self):
+        clicar = self.driver.find_element(By.XPATH,NLLoginPageLocator.CLICK_ACESSAR)
+        clicar.click()
         
