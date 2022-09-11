@@ -26,4 +26,4 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    assert Browser.driver.title != 'Menu Principal'
+    assert Browser.driver.title == 'Menu Principal'
