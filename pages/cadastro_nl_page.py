@@ -24,3 +24,10 @@ class NLCadastroPage(Browser):
         inputCPF = self.driver.find_element(
             By.ID, NLCadastroPageLocator.INPUT_CPF)
         inputCPF.send_keys(cpf)
+
+    def escrever_senha(self, senha):
+        input_senha = self.driver.find_element(
+            By.ID, NLCadastroPageLocator.INPUT_SENHA)
+        input_senha.send_keys(senha)
+
+    
