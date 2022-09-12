@@ -1,4 +1,4 @@
-from behave import *
+from behave import given, then, when
 from pages.cadastro_nl_page import NLCadastroPage
 from browser import Browser
 from suporte import Suporte

@@ -18,13 +18,11 @@ class Suporte():
                     digit = 0
                 new_cpf += str(digit)
                 if len(new_cpf) == 11:
-                    break
+                    return new_cpf
                 total = index = 0
                 c = 11
             c -= 1
             index += 1
-        
-            return new_cpf
 
     def mask_email_generator(self):
         c = 0
