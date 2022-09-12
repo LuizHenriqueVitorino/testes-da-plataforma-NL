@@ -1,9 +1,11 @@
-from time import sleep
 from behave import *
-from pages.cadastro_nl_page import NLCadastroPage as NLCP
+from pages.cadastro_nl_page import NLCadastroPage
 from browser import Browser
+from suporte import Suporte
 
-nlcp = NLCP()
+nlcp = NLCadastroPage()
+sup = Suporte()
+driver_browser = Browser()
 
 @given(u'que acessa a seção de cadastro da página NL')
 def step_impl(context):
@@ -15,7 +17,7 @@ def step_impl(context):
 
 @given(u'que preenche o campo cpf')
 def step_impl(context):
-    nlcp.escrever_cpf('830.746.433-15')
+    nlcp.escrever_cpf(sup.cpf_generator())
 
 @given(u'que preenche o campo cpf com branco')
 def step_impl(context):
@@ -47,7 +49,7 @@ def step_impl(context):
 
 @given(u'que preenche o campo e-mail')
 def step_impl(context):
-    nlcp.escrever_email('aavcdzvsddis@jsfbjj.asd')
+    nlcp.escrever_email(sup.mask_email_generator())
 
 @when(u'clico no botão cadastrar')
 def step_impl(context):
@@ -55,8 +57,8 @@ def step_impl(context):
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
-    assert Browser.driver.title == 'Inclusão - nl_Pessoa'
+    assert driver_browser.driver.title == 'Inclusão - nl_Pessoa'
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert Browser.driver.title != 'Inclusão - nl_Pessoa'
+    assert driver_browser.driver.title != 'Inclusão - nl_Pessoa'
