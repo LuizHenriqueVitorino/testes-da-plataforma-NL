@@ -12,7 +12,7 @@ def step_impl(context):
     # NLPC.nl_escrever_cpf(cpf)
     pass
 
-@given(u'que preenche o campo cpf de forma valida')
+@given(u'que preenche o campo cpf')
 def step_impl(context):
     # NLPC.nl_escrever_cpf(cpf)
     pass
@@ -25,6 +25,26 @@ def step_impl(context):
 @given(u'que preenche o campo senha')
 def step_impl(context):
     # NLPC.nl_escrever_senha(senha)
+    pass
+
+@given(u'que preenche o campo senha em branco')
+def step_impl(context):
+    # NLPC.nl_escrever_senha(senha)
+    pass
+
+@given(u'que preenche o campo senha invalida')
+def step_impl(context):
+    # NLPC.nl_escrever_senha(senha)
+    pass
+
+@given(u'que preenche o campo confirme a senha em branco')
+def step_impl(context):
+    # NLPC.nl_escrever_confirme_senha(senha)
+    pass
+
+@given(u'que preenche o campo confirme a senha invalida')
+def step_impl(context):
+    # NLPC.nl_escrever_confirme_senha(senha)
     pass
 
 @given(u'que preenche o campo confirme a senha')
