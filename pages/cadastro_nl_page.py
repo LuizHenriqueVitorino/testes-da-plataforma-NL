@@ -10,7 +10,7 @@ class NLCadastroPageLocator(object):
     INPUT_SENHA = "id_sc_field_pswd"
     INPUT_CONFIRMA_SENHA = "id_sc_field_confirm_pswd"
     INPUT_EMAIL = "id_sc_field_email"
-    INPUT_CADASTRAR = "//span[.='Cadastrar']"
+    CLICK_CADASTRAR = "//span[.='Cadastrar']"
 
 
 class NLCadastroPage(Browser):
@@ -40,7 +40,7 @@ class NLCadastroPage(Browser):
             By.ID, NLCadastroPageLocator.INPUT_EMAIL)
         input_email.send_keys(email)
 
-    def clicar_cadastro(self, cadastrar):
-        input_cadastrar = self.driver.find_element(
-            By.ID, NLCadastroPageLocator.INPUT_CADASTRAR)
-        input_cadastrar.send_keys(cadastrar)
+    def clicar_cadastro(self):
+        clicar_cadastrar = self.driver.find_element(
+            By.XPATH, NLCadastroPageLocator.CLICK_CADASTRAR)
+        clicar_cadastrar.click()
