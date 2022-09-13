@@ -1,4 +1,4 @@
-from behave import given, then, when
+from behave import *
 from pages.cadastro_nl_page import NLCadastroPage
 from browser import Browser
 from suporte import Suporte
@@ -54,6 +54,7 @@ def step_impl(context):
 @when(u'clico no botão cadastrar')
 def step_impl(context):
     nlcp.clicar_cadastro()
+    driver_browser.driver.implicitly_wait(10)
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
