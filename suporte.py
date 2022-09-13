@@ -27,7 +27,7 @@ class Suporte():
     def mask_email_generator(self):
         c = 0
         mail = ""
-        for c in range(15):
+        for c in range(16):
             mail += choice(ascii_letters)
             if c == 8:
                 mail += '@'

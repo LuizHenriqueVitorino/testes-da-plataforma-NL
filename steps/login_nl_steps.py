@@ -1,8 +1,11 @@
 from behave import *
 from pages.login_nl_page import NLLoginPage
 from browser import Browser
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 nlLoginPage = NLLoginPage()
+browser_driver = Browser()
 
 @given(u'que acesso a página do NL')
 def step_impl(context):
@@ -22,4 +25,5 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    assert Browser.driver.title == 'Menu Principal'
+    WebDriverWait(browser_driver.driver, 10).until(not EC.title_is('Cadastro de Usuário'))
+    assert browser_driver.driver.title == 'Menu Principal'

@@ -5,7 +5,7 @@ from suporte import Suporte
 
 nlcp = NLCadastroPage()
 sup = Suporte()
-driver_browser = Browser()
+browser_driver = Browser()
 
 @given(u'que acessa a seção de cadastro da página NL')
 def step_impl(context):
@@ -54,12 +54,11 @@ def step_impl(context):
 @when(u'clico no botão cadastrar')
 def step_impl(context):
     nlcp.clicar_cadastro()
-    driver_browser.driver.implicitly_wait(10)
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
-    assert driver_browser.driver.title == 'Inclusão - nl_Pessoa'
+    assert browser_driver.driver.title != 'Atualização de Usuário'
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert driver_browser.driver.title != 'Inclusão - nl_Pessoa'
+    assert browser_driver.driver.title == 'Atualização de Usuário'
