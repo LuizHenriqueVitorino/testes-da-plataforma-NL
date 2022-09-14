@@ -7237,13 +7237,19 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
 1663177267701	Marionette	INFO	Stopped listening on port 37031
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+<<<<<<< HEAD
 1663177366392	geckodriver	INFO	Listening on 127.0.0.1:41965
 1663177366400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNO9uxl"
+=======
+1663178666296	geckodriver	INFO	Listening on 127.0.0.1:51399
+1663178666789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1v2DQY"
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+<<<<<<< HEAD
 1663177367429	Marionette	INFO	Marionette enabled
 1663177367434	Marionette	INFO	Listening on port 41163
 WebDriver BiDi listening on ws://localhost:57555
@@ -7252,6 +7258,16 @@ Read port: 41163
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNO9uxl/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 DevTools listening on ws://localhost:57555/devtools/browser/9afb0321-9775-4928-838b-5def8f8f9000
+=======
+1663178667997	Marionette	INFO	Marionette enabled
+1663178668002	Marionette	INFO	Listening on port 45241
+WebDriver BiDi listening on ws://localhost:41889
+Read port: 45241
+1663178668170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1v2DQY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41889/devtools/browser/03fb7244-da5e-4735-bd52-c70e67d6ac87
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
@@ -7285,14 +7301,20 @@ JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: 
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
 JavaScript warning: https://www.youtube.com/s/player/92f199c8/player_ias.vflset/pt_BR/base.js, line 9418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+<<<<<<< HEAD
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.0.2, line 1: SyntaxError: expected expression, got '<'
 1663178559532	geckodriver	INFO	Listening on 127.0.0.1:56779
 1663178559541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSIVbbT"
+=======
+1663179419002	geckodriver	INFO	Listening on 127.0.0.1:51865
+1663179419006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEOp6As"
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+<<<<<<< HEAD
 1663178560729	Marionette	INFO	Marionette enabled
 1663178560736	Marionette	INFO	Listening on port 41637
 Read port: 41637
@@ -7308,11 +7330,30 @@ console.error: "Error during quit-application-granted: [Exception... \"File erro
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1663178707167	geckodriver	INFO	Listening on 127.0.0.1:36705
 1663178707175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileySrRhB"
+=======
+1663179419790	Marionette	INFO	Marionette enabled
+1663179419793	Marionette	INFO	Listening on port 44175
+WebDriver BiDi listening on ws://localhost:41547
+Read port: 44175
+1663179419892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEOp6As/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41547/devtools/browser/2f0d6e6f-2a8c-4afb-a974-11274ccc4ade
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663179528017	Marionette	INFO	Stopped listening on port 44175
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663179583491	geckodriver	INFO	Listening on 127.0.0.1:37855
+1663179583495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekF7dyV"
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+<<<<<<< HEAD
 1663178708201	Marionette	INFO	Marionette enabled
 1663178708207	Marionette	INFO	Listening on port 34451
 WebDriver BiDi listening on ws://localhost:35153
@@ -7321,6 +7362,68 @@ Read port: 34451
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileySrRhB/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 DevTools listening on ws://localhost:35153/devtools/browser/66409efb-7287-4f2e-9619-658d7be08cf2
+=======
+1663179584348	Marionette	INFO	Marionette enabled
+1663179584352	Marionette	INFO	Listening on port 46073
+WebDriver BiDi listening on ws://localhost:55355
+Read port: 46073
+1663179584452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekF7dyV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55355/devtools/browser/ed75ec6a-bb8c-40d6-9e82-d45083542936
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663179652871	geckodriver	INFO	Listening on 127.0.0.1:42627
+1663179652878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6UNgS8"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663179653703	Marionette	INFO	Marionette enabled
+1663179653706	Marionette	INFO	Listening on port 35745
+WebDriver BiDi listening on ws://localhost:50191
+Read port: 35745
+1663179653849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6UNgS8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50191/devtools/browser/9a7f61c3-20d8-4a80-8228-fd0e96834d4c
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663179686420	Marionette	INFO	Stopped listening on port 35745
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663179700248	geckodriver	INFO	Listening on 127.0.0.1:44253
+1663179700253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1Wga8K"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663179700940	Marionette	INFO	Marionette enabled
+1663179700943	Marionette	INFO	Listening on port 39111
+WebDriver BiDi listening on ws://localhost:39491
+Read port: 39111
+1663179701043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1Wga8K/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39491/devtools/browser/7ac63e54-465a-433e-af9e-83569714f2d6
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1663179797158	geckodriver	INFO	Listening on 127.0.0.1:43645
+1663179797163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA87eKd"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663179797945	Marionette	INFO	Marionette enabled
+1663179797949	Marionette	INFO	Listening on port 35869
+WebDriver BiDi listening on ws://localhost:47005
+Read port: 35869
+1663179798051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA87eKd/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47005/devtools/browser/01f0ffd9-04c8-4b12-b97e-21ac875d630d
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
@@ -7351,6 +7454,7 @@ JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: 
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+<<<<<<< HEAD
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
 JavaScript warning: https://www.youtube.com/s/player/92f199c8/player_ias.vflset/pt_BR/base.js, line 9418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -7364,11 +7468,34 @@ console.error: "Error during quit-application-granted: [Exception... \"File erro
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1663179552875	geckodriver	INFO	Listening on 127.0.0.1:40503
 1663179552884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelaF1Dl"
+=======
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/92f199c8/player_ias.vflset/pt_BR/base.js, line 9418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663179879571	geckodriver	INFO	Listening on 127.0.0.1:50541
+1663179879577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileandPR0"
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+<<<<<<< HEAD
 1663179553884	Marionette	INFO	Marionette enabled
 1663179553891	Marionette	INFO	Listening on port 44105
 WebDriver BiDi listening on ws://localhost:35421
@@ -7377,6 +7504,16 @@ Read port: 44105
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelaF1Dl/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 DevTools listening on ws://localhost:35421/devtools/browser/400267dc-1e9a-4e24-9e92-c6353cd4a4c8
+=======
+1663179880465	Marionette	INFO	Marionette enabled
+1663179880471	Marionette	INFO	Listening on port 38733
+Read port: 38733
+WebDriver BiDi listening on ws://localhost:40535
+1663179880627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileandPR0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40535/devtools/browser/2810da11-33c7-45e5-bbcc-14ecb7a1d78b
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
@@ -7407,6 +7544,7 @@ JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: 
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+<<<<<<< HEAD
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
 JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
 JavaScript warning: https://www.youtube.com/s/player/92f199c8/player_ias.vflset/pt_BR/base.js, line 9418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -7436,3 +7574,23 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+=======
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/92f199c8/player_ias.vflset/pt_BR/base.js, line 9418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+>>>>>>> e1b86775381481243f449846dab78e4e2b473c1b

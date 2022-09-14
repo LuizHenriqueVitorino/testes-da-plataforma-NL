@@ -11,4 +11,4 @@ Funcionalidade: Testar o campo de email na página de cadastro NL
         Dado que preenche o campo confirme a senha
         Dado que preenche o campo e-mail
         Quando clico no botão cadastrar
-        Então devo passar para o preenchimento dos próximos dadosd
+        Então devo passar para o preenchimento dos próximos dados
