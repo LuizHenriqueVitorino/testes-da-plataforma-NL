@@ -25,5 +25,4 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    WebDriverWait(browser_driver.driver, 10).until(not EC.title_is('Cadastro de Usuário'))
     assert browser_driver.driver.title == 'Menu Principal'

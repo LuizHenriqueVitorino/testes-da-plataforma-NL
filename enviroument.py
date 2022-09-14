@@ -11,3 +11,7 @@ def after_all(context):
 # Execulta os comandos entre cada cenário
 def after_scenario(context, scenario):
     context.browser.browser_clear()
+
+# Execulta os comandos entre cada step
+def before_step(context, step):
+    context.driver.implicit_wait(7)
