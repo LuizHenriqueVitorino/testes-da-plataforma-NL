@@ -6,7 +6,7 @@ Funcionalidade: Testar o sistema de cadastro da página NL
         Dado que acessa a seção de cadastro da página NL
 
     Cenário: acessar pagina NL e realizar cadastro de um usuário
-        Dado que preenche o campo cpf de forma valida
+        Dado que preenche o campo cpf
         Dado que preenche o campo senha
         Dado que preenche o campo confirme a senha
         Dado que preenche o campo e-mail

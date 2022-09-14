@@ -1,53 +1,63 @@
 from behave import *
-# from pages.cadastro_nl_page import NLCadastroPage as NLCP
-from browser import Browser
+from pages.cadastro_nl_page import NLCadastroPage
+from support import Support
+from selenium.webdriver.common.by import By
+
+nlcp = NLCadastroPage()
+sup = Support()
 
 @given(u'que acessa a seção de cadastro da página NL')
 def step_impl(context):
-    # NLPC.nl_cadastro(url)
-    pass
+    nlcp.acessar_Nl('https://prpi.ifce.edu.br/nl/app_form_add_users/')
 
 @given(u'que preenche o campo cpf de forma invalida')
 def step_impl(context):
-    # NLPC.nl_escrever_cpf(cpf)
-    pass
+    nlcp.escrever_cpf('12345677777')
 
-@given(u'que preenche o campo cpf de forma valida')
+@given(u'que preenche o campo cpf')
 def step_impl(context):
-    # NLPC.nl_escrever_cpf(cpf)
-    pass
+    nlcp.escrever_cpf(sup.cpf_generator())
 
 @given(u'que preenche o campo cpf com branco')
 def step_impl(context):
-    # NLPC.nl_escrever_cpf(''/ pode ser um boolean em falso para preencher com branco)
-    pass
+    nlcp.escrever_cpf('')
 
 @given(u'que preenche o campo senha')
 def step_impl(context):
-    # NLPC.nl_escrever_senha(senha)
-    pass
+    nlcp.escrever_senha('123456')
+
+@given(u'que preenche o campo senha em branco')
+def step_impl(context):
+    nlcp.escrever_senha('')
+
+@given(u'que preenche o campo senha invalida')
+def step_impl(context):
+    nlcp.escrever_senha('1234')
+
+@given(u'que preenche o campo confirme a senha em branco')
+def step_impl(context):
+    nlcp.confirmar_senha('')
+
+@given(u'que preenche o campo confirme a senha invalida')
+def step_impl(context):
+    nlcp.confirmar_senha('1342')
 
 @given(u'que preenche o campo confirme a senha')
 def step_impl(context):
-    # NLPC.nl_escrever_confirme_senha(senha)
-    pass
+    nlcp.confirmar_senha('123456')
 
 @given(u'que preenche o campo e-mail')
 def step_impl(context):
-    # NLPC.nl_escrever_email(email)
-    pass
+    nlcp.escrever_email(sup.mask_email_generator())
 
 @when(u'clico no botão cadastrar')
 def step_impl(context):
-    # NLPC.nl_clicar_cadastrar()
-    pass
+    nlcp.clicar_cadastro()
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
-    # assert Browser.driver.title == 'Inclusão - nl_Pessoa'
-    pass
+    assert nlcp.driver.title != 'Atualização de Usuário'
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    # assert Browser.driver.title != 'Inclusão - nl_Pessoa'
-    pass 
+    assert nlcp.driver.find_element(By.ID, "id_error_display_fixed") in nlcp.driver.current_window_handle

@@ -1,6 +1,5 @@
 from behave import *
 from pages.login_nl_page import NLLoginPage
-from browser import Browser
 
 nlLoginPage = NLLoginPage()
 
@@ -22,4 +21,4 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    assert Browser.driver.title == 'Menu Principal'
+    assert nlLoginPage.driver.title == "Menu Principal"
