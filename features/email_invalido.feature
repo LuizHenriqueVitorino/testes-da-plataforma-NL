@@ -1,4 +1,4 @@
- language: pt
+# language: pt
 
 Funcionalidade: Testar o campo de email na página de cadastro NL
 
