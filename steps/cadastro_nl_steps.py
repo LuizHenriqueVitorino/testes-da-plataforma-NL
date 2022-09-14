@@ -61,3 +61,19 @@ def step_impl(context):
 @then(u'devo falhar no cadastro')
 def step_impl(context):
     assert nlcp.driver.find_element(By.ID, "id_error_display_fixed") in nlcp.driver.current_window_handle
+
+@given(u'que acessa a seção de cadastro da página NL em específico o campo de email')
+def step_impl(context):
+    nlcp.acessar_Nl('https://prpi.ifce.edu.br/nl/app_form_add_users/')
+
+@given(u'que preenche o campo e-mail em branco')
+def step_impl(context):
+    nlcp.escrever_email('')
+
+@given(u'que preenche o campo e-mail inválido')
+def step_impl(context):
+    nlcp.escrever_email('12345677777')
+
+@then(u'devo passar para o preenchimento dos próximos dados')
+def step_impl(context):
+    nlcp.escrever_email(sup.mask_email_generator)
