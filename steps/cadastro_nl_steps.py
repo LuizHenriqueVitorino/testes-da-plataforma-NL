@@ -1,6 +1,7 @@
 from behave import *
 from pages.cadastro_nl_page import NLCadastroPage
 from support import Support
+from selenium.webdriver.common.by import By
 
 nlcp = NLCadastroPage()
 sup = Support()
@@ -59,4 +60,4 @@ def step_impl(context):
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert nlcp.driver.title == 'Atualização de Usuário'
+    assert nlcp.driver.find_element(By.ID, "id_error_display_fixed") in nlcp.driver.current_window_handle

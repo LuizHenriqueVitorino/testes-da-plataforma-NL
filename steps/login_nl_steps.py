@@ -9,11 +9,11 @@ def step_impl(context):
 
 @given(u'que preencho o campo cpf')
 def step_impl(context):
-    nlLoginPage.escrever_cpf('61531303307')
+    nlLoginPage.escrever_cpf('...')
 
 @given(u'que preencho o campo senha')
 def step_impl(context):
-    nlLoginPage.escrever_senha('v.andrade')
+    nlLoginPage.escrever_senha('...')
 
 @when(u'clico no botão entrar')
 def step_impl(context):
