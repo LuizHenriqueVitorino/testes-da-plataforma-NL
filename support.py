@@ -2,7 +2,8 @@ from random import randint
 from string import ascii_letters
 from random import choice
 
-class Suporte():    
+
+class Support():
 
     def cpf_generator(self):
         cpf = str(randint(100000000, 999999999))
@@ -35,4 +36,3 @@ class Suporte():
                 mail += '.'
 
         return mail
-        

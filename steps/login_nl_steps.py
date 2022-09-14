@@ -1,11 +1,7 @@
 from behave import *
 from pages.login_nl_page import NLLoginPage
-from browser import Browser
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 nlLoginPage = NLLoginPage()
-browser_driver = Browser()
 
 @given(u'que acesso a página do NL')
 def step_impl(context):
@@ -13,11 +9,11 @@ def step_impl(context):
 
 @given(u'que preencho o campo cpf')
 def step_impl(context):
-    nlLoginPage.escrever_cpf('...')
+    nlLoginPage.escrever_cpf('61531303307')
 
 @given(u'que preencho o campo senha')
 def step_impl(context):
-    nlLoginPage.escrever_senha('...')
+    nlLoginPage.escrever_senha('v.andrade')
 
 @when(u'clico no botão entrar')
 def step_impl(context):
@@ -25,4 +21,4 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    assert browser_driver.driver.title == 'Menu Principal'
+    assert nlLoginPage.driver.title == "Menu Principal"

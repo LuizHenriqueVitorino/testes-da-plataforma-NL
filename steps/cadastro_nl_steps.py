@@ -1,11 +1,9 @@
 from behave import *
 from pages.cadastro_nl_page import NLCadastroPage
-from browser import Browser
-from suporte import Suporte
+from support import Support
 
 nlcp = NLCadastroPage()
-sup = Suporte()
-browser_driver = Browser()
+sup = Support()
 
 @given(u'que acessa a seção de cadastro da página NL')
 def step_impl(context):
@@ -57,8 +55,8 @@ def step_impl(context):
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
-    assert browser_driver.driver.title != 'Atualização de Usuário'
+    assert nlcp.driver.title != 'Atualização de Usuário'
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert browser_driver.driver.title == 'Atualização de Usuário'
+    assert nlcp.driver.title == 'Atualização de Usuário'
