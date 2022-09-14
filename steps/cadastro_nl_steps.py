@@ -73,7 +73,3 @@ def step_impl(context):
 @given(u'que preenche o campo e-mail inválido')
 def step_impl(context):
     nlcp.escrever_email('12345677777')
-
-@then(u'devo passar para o preenchimento dos próximos dados')
-def step_impl(context):
-    nlcp.escrever_email(sup.mask_email_generator)
