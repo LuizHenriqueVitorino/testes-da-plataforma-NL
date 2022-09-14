@@ -60,4 +60,4 @@ def step_impl(context):
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert nlcp.driver.find_element(By.ID, "id_error_display_fixed") in nlcp.driver.current_window_handle
+    assert nlcp.driver.find_element(By.ID, "id_error_display_fixed") in "https://prpi.ifce.edu.br/nl/app_form_add_users/"

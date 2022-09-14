@@ -21,4 +21,4 @@ def step_impl(context):
 
 @then(u'devo logar no sistema')
 def step_impl(context):
-    assert nlLoginPage.driver.title == "Menu Principal"
+    assert nlLoginPage.driver.title == 'Menu Principal'
