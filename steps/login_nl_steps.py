@@ -1,3 +1,4 @@
+from time import sleep
 from behave import *
 from pages.login_nl_page import NLLoginPage
 
@@ -9,15 +10,16 @@ def step_impl(context):
 
 @given(u'que preencho o campo cpf')
 def step_impl(context):
-    nlLoginPage.escrever_cpf('...')
+    nlLoginPage.escrever_cpf('61531303307')
 
 @given(u'que preencho o campo senha')
 def step_impl(context):
-    nlLoginPage.escrever_senha('...')
+    nlLoginPage.escrever_senha('v.andrade')
 
 @when(u'clico no botão entrar')
 def step_impl(context):
     nlLoginPage.clicar_acessar()
+    sleep(2)
 
 @then(u'devo logar no sistema')
 def step_impl(context):
