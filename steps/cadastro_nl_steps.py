@@ -51,6 +51,10 @@ def step_impl(context):
 def step_impl(context):
     nlcp.confirmar_senha('123456')
 
+@given(u'que preenche o campo confirme a senha repetindo a senha')
+def step_impl(context):
+    nlcp.confirmar_senha('123456')
+
 @given(u'que preenche o campo confirme a senha diferente de senha')
 def step_impl(context):
     nlcp.confirmar_senha('321654')
