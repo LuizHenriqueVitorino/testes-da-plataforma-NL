@@ -15,6 +15,9 @@ class Browser(object):
     # Limpa o browser
     def browser_clear(self):
         self.driver.delete_all_cookies()
-        self.driver.execute_script('window.LocalStorage.clear()')
-        self.driver.execute_script('window.SessionStorage.clear()')
-        self.driver.refresh()
+        self.driver.execute_script('window.localStorage.clear()')
+        self.driver.execute_script('window.sessionStorage.clear()')
+        # self.driver.refresh()
+    
+    def browser_wait(self, seconds):
+        self.driver.implicitly_wait(seconds)

@@ -14,4 +14,4 @@ def after_scenario(context, scenario):
 
 # Execulta os comandos entre cada step
 def before_step(context, step):
-    context.driver.implicit_wait(7)
+    context.browser.browser_wait(7)
