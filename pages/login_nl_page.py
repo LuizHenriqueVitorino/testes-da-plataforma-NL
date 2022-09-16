@@ -10,8 +10,7 @@ class NLLoginPageLocator(object):
     CLICK_ACESSAR = "//div/input[@class='button']"
 
 class NLLoginPage(Browser):
-    # def escrever_email(self):
-    # TODO Escreve as funções da page. Para os meninos do teste... 
+
     def acessar_Nl(self, url):
         self.driver.get(url)
 

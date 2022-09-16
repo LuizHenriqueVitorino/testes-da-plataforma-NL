@@ -2,7 +2,6 @@ from random import randint
 from string import ascii_letters
 from random import choice
 
-
 class Support():
 
     def cpf_generator(self):
