@@ -8,6 +8,7 @@ class NLLoginPageLocator(object):
     INPUT_CPF = "id_sc_field_login"
     INPUT_SENHA = "id_sc_field_pswd"
     CLICK_ACESSAR = "//div/input[@class='button']"
+    ID_PLATAFORMA_NL = "lin2_col1"
 
 class NLLoginPage(Browser):
     # def escrever_email(self):
