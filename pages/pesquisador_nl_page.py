@@ -19,7 +19,7 @@ class NLPesquisadorPageLocator(object):
 class NLPesquisadorPage(Browser):
 
     def clicar_branco(self):
-        self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_ESPAÇO_BRANCO).click()
+        self.driver.find_element(By.ID, 'aba_td_txt_item_5').click()
 
     def pesquisador(self):
         pesquisador = self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_PESQUISADOR)

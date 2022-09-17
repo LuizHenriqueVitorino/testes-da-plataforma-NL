@@ -1,4 +1,3 @@
-from ast import Assert
 from behave import *
 from login import Login
 from pages.pesquisador_nl_page import NLPesquisadorPage
@@ -17,11 +16,10 @@ def step_impl(context):
 def step_impl(context):
     obj_pesquisador.acessar_alterar_dados()
     obj_pesquisador.clicar_branco()
+    
 
-
-@then(u'o titulo da aba deve ser igual ao do menu')
+@then(u'o campo cpf deve ser igual ao de login')
 def step_impl(context):
-    assert obj_login.CPF in obj_pesquisador.driver.find_element(By.ID, 'lin1_col2').text
-    # assert obj_pesquisador.driver.find_element(By.ID, 'aba_td_item_5').text == 'Alterar seus Dados'
-    # obj_pesquisador.driver.find_element(By.ID, 'item_5')
+    assert 'Alterar seus Dados' == obj_pesquisador.driver.find_element(By.ID,'aba_td_item_5').text
+    assert obj_pesquisador.driver.find_element(By.CSS_SELECTOR, '#id_read_on_cpf').text == 'cpf'
     obj_pesquisador.fechar_aba(fechar_alterar_dados=True)
