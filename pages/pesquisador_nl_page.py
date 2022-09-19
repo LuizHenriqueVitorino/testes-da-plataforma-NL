@@ -5,7 +5,7 @@ from browser import Browser
 class NLPesquisadorPageLocator(object):
     ID_PESQUISADOR = 'item_4'
     ID_ALTERAR_DADOS = 'item_5'
-    ID_FECHAR_ALTERAR_DADOS = 'aba_td_img_item_item_5'
+    ID_FECHAR_ALTERAR_DADOS = 'aba_td_img_item_5'
     ID_ALTERAR_SENHA = 'item_12'
     ID_FECHAR_ALTERAR_SENHA = 'aba_td_img_item_item_12'
     ID_MENSAGEM_SISTEMA = 'item_58'

@@ -19,5 +19,7 @@ def step_impl(context):
 @then(u'o campo cpf deve ser igual ao de login')
 def step_impl(context):
     assert 'Alterar seus Dados' == obj_pesquisador.driver.find_element(By.ID,'aba_td_item_5').text
+    obj_pesquisador.driver.switch_to.frame("iframe_item_5") # Muda para o frame que contem os dados 
     assert obj_pesquisador.driver.find_element(By.ID, 'id_read_on_cpf').text == obj_login.CPF
+    obj_pesquisador.driver.switch_to.parent_frame() # Volta para o frame original
     obj_pesquisador.fechar_aba(fechar_alterar_dados=True)
