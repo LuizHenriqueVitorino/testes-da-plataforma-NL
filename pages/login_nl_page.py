@@ -11,8 +11,7 @@ class NLLoginPageLocator(object):
     ID_PLATAFORMA_NL = "lin2_col1"
 
 class NLLoginPage(Browser):
-    # def escrever_email(self):
-    # TODO Escreve as funções da page. Para os meninos do teste... 
+
     def acessar_Nl(self, url):
         self.driver.get(url)
 

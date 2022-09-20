@@ -1,4 +1,3 @@
-from time import sleep
 from behave import *
 from pages.cadastro_nl_page import NLCadastroPage
 from support import Support
@@ -74,12 +73,11 @@ def step_impl(context):
 @when(u'clico no botão cadastrar')
 def step_impl(context):
     nlcp.clicar_cadastro()
-    sleep(2)
 
 @then(u'devo passar para o preenchimento dos próximos dados')
 def step_impl(context):
-    assert nlcp.driver.title == 'Inclusão - nl_Pessoa'
+    assert nlcp.driver.title != 'Atualização de Usuário'
 
 @then(u'devo falhar no cadastro')
 def step_impl(context):
-    assert 'ERROR' in nlcp.driver.find_element(By.XPATH, '/html/body/div[1]/table/tbody/tr[1]/td[2]/table/tbody/tr/td[1]').text
+    assert 'ERROR' in nlcp.driver.find_element(By.ID, "id_error_display_fixed").text
