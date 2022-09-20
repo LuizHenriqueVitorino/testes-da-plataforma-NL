@@ -10000,3 +10000,1013 @@ JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
 >>>>>>> main
+1663697445161	geckodriver	INFO	Listening on 127.0.0.1:51019
+1663697445658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGbjlcP"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663697446991	Marionette	INFO	Marionette enabled
+1663697446995	Marionette	INFO	Listening on port 37073
+WebDriver BiDi listening on ws://localhost:57221
+Read port: 37073
+1663697447178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGbjlcP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57221/devtools/browser/74a21807-0bc6-43b9-bb15-ee59d0d15a84
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663697556782	Marionette	INFO	Stopped listening on port 37073
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663697570062	geckodriver	INFO	Listening on 127.0.0.1:49087
+1663697570066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileO5zHqI"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663697570800	Marionette	INFO	Marionette enabled
+1663697570804	Marionette	INFO	Listening on port 37645
+WebDriver BiDi listening on ws://localhost:36893
+Read port: 37645
+1663697570916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO5zHqI/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36893/devtools/browser/6e2b33a2-6239-49c6-a675-aaa7e22862c6
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663697607133	Marionette	INFO	Stopped listening on port 37645
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663697610323	geckodriver	INFO	Listening on 127.0.0.1:48775
+1663697610327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezrKWz1"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663697611027	Marionette	INFO	Marionette enabled
+1663697611031	Marionette	INFO	Listening on port 39041
+WebDriver BiDi listening on ws://localhost:34467
+Read port: 39041
+1663697611269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezrKWz1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34467/devtools/browser/df8fcd2f-e0aa-42a3-bd8b-baa9e8e92cfb
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663697622262	Marionette	INFO	Stopped listening on port 39041
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663697826983	geckodriver	INFO	Listening on 127.0.0.1:48425
+1663697826987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoWFHv8"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663697827664	Marionette	INFO	Marionette enabled
+1663697827668	Marionette	INFO	Listening on port 41381
+WebDriver BiDi listening on ws://localhost:41391
+Read port: 41381
+1663697827769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoWFHv8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41391/devtools/browser/24acb8e9-5c72-4dce-9f68-5fe2117da9f6
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663697845742	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663697847727	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663697847885	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663697848147	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+1663697848867	Marionette	INFO	Stopped listening on port 41381
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663699351091	geckodriver	INFO	Listening on 127.0.0.1:49199
+1663699351095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45603" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezVIghN"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663699351792	Marionette	INFO	Marionette enabled
+1663699351796	Marionette	INFO	Listening on port 44889
+WebDriver BiDi listening on ws://localhost:45603
+Read port: 44889
+1663699352032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezVIghN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45603/devtools/browser/c8e67c15-baac-408c-8a95-5d7af5cec0f3
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663699371792	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663699373642	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663699373799	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663699374006	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+1663699374729	Marionette	INFO	Stopped listening on port 44889
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1663700860404	geckodriver	INFO	Listening on 127.0.0.1:44949
+1663700860408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaAUfcM"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663700861120	Marionette	INFO	Marionette enabled
+1663700861123	Marionette	INFO	Listening on port 35803
+WebDriver BiDi listening on ws://localhost:41307
+Read port: 35803
+1663700861353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaAUfcM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41307/devtools/browser/e538d1af-c4f0-4697-bfa8-f91c2bfb3ce1
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663700879489	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663700879661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663700879807	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+1663700881766	Marionette	INFO	Stopped listening on port 35803
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663700933856	geckodriver	INFO	Listening on 127.0.0.1:41697
+1663700933861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledzk9ij"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663700934547	Marionette	INFO	Marionette enabled
+1663700934550	Marionette	INFO	Listening on port 41307
+WebDriver BiDi listening on ws://localhost:57685
+Read port: 41307
+1663700934645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledzk9ij/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57685/devtools/browser/a7f9db9a-dff5-4141-b7fb-8e05cfa356d8
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663700954766	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663700954921	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663700955121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+1663700957020	Marionette	INFO	Stopped listening on port 41307
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663701023190	geckodriver	INFO	Listening on 127.0.0.1:49521
+1663701023194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekBj6ux"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663701023899	Marionette	INFO	Marionette enabled
+1663701023902	Marionette	INFO	Listening on port 35683
+WebDriver BiDi listening on ws://localhost:58951
+Read port: 35683
+1663701024136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekBj6ux/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58951/devtools/browser/7aa6dac6-72f0-4677-ad8c-05e0d053133b
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701042267	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701042433	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701042679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+1663701044629	Marionette	INFO	Stopped listening on port 35683
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663701417756	geckodriver	INFO	Listening on 127.0.0.1:58271
+1663701417760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileELFl4Y"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663701418429	Marionette	INFO	Marionette enabled
+1663701418433	Marionette	INFO	Listening on port 33761
+WebDriver BiDi listening on ws://localhost:49447
+Read port: 33761
+1663701418530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileELFl4Y/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49447/devtools/browser/ad23b498-4369-441e-a314-9752ce67aefb
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701438063	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701438165	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701438400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701439391	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701439866	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701440588	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701441291	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701442159	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701442866	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701443318	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701443814	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701444296	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701444751	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701444877	Marionette	INFO	Stopped listening on port 33761
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663701749282	geckodriver	INFO	Listening on 127.0.0.1:39331
+1663701749286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCJK14R"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663701749993	Marionette	INFO	Marionette enabled
+1663701749996	Marionette	INFO	Listening on port 34881
+WebDriver BiDi listening on ws://localhost:51215
+Read port: 34881
+1663701750232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCJK14R/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51215/devtools/browser/ef09bf0c-e7cf-4922-a363-08127632738c
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701769208	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701769351	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701769596	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701770593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701771113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701771828	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701772511	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701773264	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701773939	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701774410	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701774911	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663701775381	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701775842	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663701775966	Marionette	INFO	Stopped listening on port 34881
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663702106238	geckodriver	INFO	Listening on 127.0.0.1:43753
+1663702106243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLPjhR8"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663702106943	Marionette	INFO	Marionette enabled
+1663702106947	Marionette	INFO	Listening on port 42707
+WebDriver BiDi listening on ws://localhost:52609
+Read port: 42707
+1663702107188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLPjhR8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52609/devtools/browser/655cb303-1a4c-4f28-8b14-232c394ca859
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702125943	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702127871	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702128028	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702128267	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702129298	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702129762	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702130494	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702131186	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702131898	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702132584	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702133096	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702133547	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702133977	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702134525	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702134652	Marionette	INFO	Stopped listening on port 42707
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663702309350	geckodriver	INFO	Listening on 127.0.0.1:53205
+1663702309354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWMPrZe"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663702310046	Marionette	INFO	Marionette enabled
+1663702310049	Marionette	INFO	Listening on port 35467
+WebDriver BiDi listening on ws://localhost:35699
+Read port: 35467
+1663702310152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWMPrZe/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35699/devtools/browser/5ab9f7e6-1136-41dd-88bb-ff1c41423712
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702328086	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702328190	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702328403	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702329445	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702329933	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702330625	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702331311	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702332024	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702332707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702333220	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702333679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702334157	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702334596	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702334738	Marionette	INFO	Stopped listening on port 35467
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1663702370687	geckodriver	INFO	Listening on 127.0.0.1:44151
+1663702370691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevKIV75"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663702371388	Marionette	INFO	Marionette enabled
+1663702371391	Marionette	INFO	Listening on port 46399
+Read port: 46399
+WebDriver BiDi listening on ws://localhost:51709
+1663702371489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevKIV75/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51709/devtools/browser/032704a3-d0d9-413a-8c85-e1c41f346602
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4972: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4976: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4980: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4974: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4978: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4982: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4973: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4977: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4981: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4919: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4923: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_form_add_users/, line 4927: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2241: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/app_Login/, line 2274: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/player/7577aaa2/player_ias.vflset/pt_BR/base.js, line 9449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702391445	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702391605	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702391880	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9628: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9632: unreachable code after return statement
+JavaScript warning: https://prpi.ifce.edu.br/nl/form_nl_PessoaAlteracao/, line 9636: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702392935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702393417	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702394146	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702394839	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702395787	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702396473	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702397132	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702397649	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://prpi.ifce.edu.br."
+1663702398390	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702398805	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1663702399210	Marionette	INFO	Stopped listening on port 46399
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
