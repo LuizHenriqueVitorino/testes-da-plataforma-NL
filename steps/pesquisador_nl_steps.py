@@ -32,6 +32,7 @@ def step_impl(context):
 def step_impl(context):
     obj_pesquisador.driver.switch_to.frame('iframe_item_12')
     obj_pesquisador.alterar_senha(nova_senha='123456', confirme_nova_senha='123456')
+    obj_login.SENHA = '123456'
     obj_pesquisador.driver.switch_to.parent_frame()
 
 @then(u'a senha deve ser alterada')
@@ -49,3 +50,17 @@ def step_impl(context):
     assert 'ERROR' in obj_pesquisador.driver.find_element(By.ID, 'id_error_display_fixed').text
     obj_pesquisador.driver.switch_to.parent_frame()
     obj_pesquisador.fechar_aba(fechar_alterar_senha=True)
+
+@given(u'que acessa mensagens do sistema')
+def step_impl(context):
+    obj_pesquisador.acessar_mensagem_sistema()
+    obj_pesquisador.clicar_branco()
+
+@given(u'acessa os detalhes de uma das mensagens')
+def step_impl(context):
+    obj_pesquisador.driver.switch_to.frame('iframe_item_58')
+    obj_pesquisador.acessar_detalhes_mensagens()
+
+@then(u'a data e hora devem estar iguais na página principal e nos detelhes')
+def step_impl(context):
+    pass

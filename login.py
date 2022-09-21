@@ -2,8 +2,8 @@ from pages.login_nl_page import NLLoginPage
 
 class Login(NLLoginPage):
     #TODO antes de qualquer teste preencha as constantes
-    CPF = ''
-    SENHA = ''
+    CPF = '61531303307'
+    SENHA = 'v.andrade'
     obj_login_page = NLLoginPage()
 
     def logar(self):
