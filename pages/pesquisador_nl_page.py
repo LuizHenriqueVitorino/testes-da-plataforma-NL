@@ -19,7 +19,7 @@ class NLPesquisadorPageLocator(object):
     ID_SENHA = 'id_sc_field_pswd'
     ID_CONFIRME_SENHA = 'id_sc_field_confirm_pswd'
     ID_OK_ALTERAR_SENHA = 'sub_form_b'
-    XPATH_DETALHES_MENSAGENS_SISTEMA = '//tr[@id="SC_ancor1"]/td[2]/table/tbody/tr/td/a'
+    XPATH_DETALHES_MENSAGENS_SISTEMA = '//tr[@id="SC_ancor1"]/td/table/tbody/tr/td/a'
 
 class NLPesquisadorPage(Browser):
 
@@ -79,5 +79,5 @@ class NLPesquisadorPage(Browser):
         self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_OK_ALTERAR_SENHA).click()
 
     def acessar_detalhes_mensagens(self):
-        self.driver.find_element(By.XPATH, NLPesquisadorPageLocator.XPATH_DETALHES_MENSAGENS_SISTEMA).click
+        self.driver.find_element(By.XPATH, NLPesquisadorPageLocator.XPATH_DETALHES_MENSAGENS_SISTEMA).click()
                       
