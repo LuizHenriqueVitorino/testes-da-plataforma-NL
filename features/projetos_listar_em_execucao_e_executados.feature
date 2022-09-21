@@ -11,6 +11,7 @@ Funcionalidade: Testar os projetos em execução dentro da página NL
         Dado que clica em Projetos
         Dado que clica em Listar em execução e executados  
         Então a aba de (Listar em execução e executados) é aberta.
+        Dado que clica na logo (plataforma NL).
         E clica em fechar a aba de (Listar em execução e executados).
 
 

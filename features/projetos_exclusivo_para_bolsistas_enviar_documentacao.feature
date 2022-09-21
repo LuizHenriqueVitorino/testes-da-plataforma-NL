@@ -13,6 +13,7 @@ Funcionalidade: Testar os projetos em execução dentro da página NL
         Dado que clica em Exclusivo para Bolsistas
         Dado que clica em Enviar Documentação
         Então a aba de (Enviar Documentação) é aberta.
+        Dado que clica na logo (plataforma NL).
         E clica em fechar a aba de (Enviar Documentação).
 
 

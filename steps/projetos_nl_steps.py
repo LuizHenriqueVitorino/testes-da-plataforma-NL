@@ -7,6 +7,7 @@ from pages.projetos_listar_todos_os_seus_projetos_page import NLListarTodosOsSeu
 from support import Support
 from selenium.webdriver.common.by import By
 from login import Login
+from time import sleep
 
 login = Login()
 sup = Support()
@@ -108,6 +109,7 @@ def step_impl(context):
 
 @then(u'clica em fechar a aba de (Documentos Gerais e Modelos).')
 def step_impl(context):
+    sleep(2)
     nldgm.fechar_doc_gerais_e_modelos()
 
 
@@ -127,5 +129,34 @@ def step_impl(context):
 
 
 @then(u'clica em fechar a aba de (Listar todos os seus projetos).')
+def step_impl(context):
+    nlltosp.fechar_aba_listar_todos_os_seus_projetos()
+
+@given(u'que clica na logo (plataforma NL).')
+def step_impl(context):
+    nldgm.clicar_na_plataforma_NL()
+
+
+@given(u'clica em fechar a aba de (Documentos Gerais e Modelos).')
+def step_impl(context):
+    nldgm.fechar_doc_gerais_e_modelos()
+
+
+@given(u'clica em fechar a aba de (Enviar Documentação).')
+def step_impl(context):
+    nlepbed.fechar_aba_enviar_documentacao()
+
+
+@given(u'clica em fechar a aba de (Enviar relatório).')
+def step_impl(context):
+    nlepber.fechar_aba_enviar_relatorio()
+
+
+@given(u'clica em fechar a aba de (Listar em execução e executados).')
+def step_impl(context):
+    nlleeee.fechar_aba_listar_em_execucao_e_executados()
+
+
+@given(u'clica em fechar a aba de (Listar todos os seus projetos).')
 def step_impl(context):
     nlltosp.fechar_aba_listar_todos_os_seus_projetos()

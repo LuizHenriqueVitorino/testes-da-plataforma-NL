@@ -11,6 +11,7 @@ class NLExclusivoParaBolsistasEnviarDocumetacaoLocator(object):
     XPATH_EXCLUSIVO_PARA_BOLSISTAS = "//a/span[.='Exclusivo para Bolsistas']"
     ID_ENVIAR_DOCUMENTACAO = "item_65"
     ID_ASSERT_ENVIAR_DOCUMENTACAO = "aba_td_txt_item_65"
+    ID__CLICAR_PLATAFORMA_NL = "lin2_col1"
     ID_FECHAR_ABA_ENVIAR_DOCUMENTACAO = "aba_td_img_item_65"
 
 class NLExclusivoParaBolsistasEnviarDocumentacao(Browser):
@@ -35,6 +36,11 @@ class NLExclusivoParaBolsistasEnviarDocumentacao(Browser):
         assert_no_enviar_documentacao = self.driver.find_element(
             By.ID, NLExclusivoParaBolsistasEnviarDocumetacaoLocator.ID_ASSERT_ENVIAR_DOCUMENTACAO)
         assert assert_no_enviar_documentacao.text == "Enviar Documentação"
+
+    def clicar_na_plataforma_NL(self):
+        clicar_plataforma_nl = self.driver.find_element(
+            By.ID, NLExclusivoParaBolsistasEnviarDocumetacaoLocator.ID__CLICAR_PLATAFORMA_NL)
+        clicar_plataforma_nl.click()
 
     def fechar_aba_enviar_documentacao(self):
         fechar_aba_enviar_documentacao = self.driver.find_element(

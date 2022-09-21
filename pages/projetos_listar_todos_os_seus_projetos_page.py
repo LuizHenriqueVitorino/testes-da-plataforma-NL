@@ -12,6 +12,7 @@ class NLListarTodosOsSeusProjetosLocator(object):
     XPATH_PROJETOS = "//span[.=' Projetos']"
     ID_LISTAR_TODOS_OS_SEUS_PROJETOS = "item_130"
     ID_ASSERT_LISTAR_TODOS_OS_SEUS_PROJETOS = "aba_td_txt_item_130"
+    ID__CLICAR_PLATAFORMA_NL = "lin2_col1"
     ID_FECHAR_ABA_LISTAR_TODOS_OS_SEUS_PROJETOS = "aba_td_img_item_130"
 
 class NLListarTodosOsSeusProjetos(Browser):
@@ -31,6 +32,11 @@ class NLListarTodosOsSeusProjetos(Browser):
         assert_no_listar_todos_os_seus_projetos = self.driver.find_element(
             By.ID, NLListarTodosOsSeusProjetosLocator.ID_ASSERT_LISTAR_TODOS_OS_SEUS_PROJETOS)
         assert assert_no_listar_todos_os_seus_projetos.text == "Listar todos os seus projetos"
+
+    def clicar_na_plataforma_NL(self):
+        clicar_plataforma_nl = self.driver.find_element(
+            By.ID, NLListarTodosOsSeusProjetosLocator.ID__CLICAR_PLATAFORMA_NL)
+        clicar_plataforma_nl.click()
 
     def fechar_aba_listar_todos_os_seus_projetos(self):
         fechar_a_aba_listar_todos_os_seus_projetos = self.driver.find_element(

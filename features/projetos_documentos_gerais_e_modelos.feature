@@ -11,6 +11,7 @@ Funcionalidade: Testar os projetos em execução dentro da página NL
         Dado que clica em Projetos
         Dado que clica em Documentos Gerais e Modelos  
         Então a aba de (Documentos Gerais e Modelos) é aberta.
+        Dado que clica na logo (plataforma NL). 
         E clica em fechar a aba de (Documentos Gerais e Modelos).
 
 
