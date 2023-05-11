@@ -1,25 +1,32 @@
 from selenium.webdriver.common.by import By
 from browser import Browser
-
+from login import Login
 
 class NLPesquisadorPageLocator(object):
     ID_PESQUISADOR = 'item_4'
     ID_ALTERAR_DADOS = 'item_5'
     ID_FECHAR_ALTERAR_DADOS = 'aba_td_img_item_5'
     ID_ALTERAR_SENHA = 'item_12'
-    ID_FECHAR_ALTERAR_SENHA = 'aba_td_img_item_item_12'
+    ID_FECHAR_ALTERAR_SENHA = 'aba_td_img_item_12'
     ID_MENSAGEM_SISTEMA = 'item_58'
-    ID_FECHAR_MENSAGEM_SISTEMA = 'aba_td_img_item_item_58'
+    ID_FECHAR_MENSAGEM_SISTEMA = 'aba_td_img_item_58'
     ID_CONVERSOR_LATTES = 'item_128'
     ID_SEUS_NUMEROS = 'item_54'
     ID_DASHBOARD = 'item_66'
-    ID_FECHAR_DASHBOARD = 'aba_td_img_item_item_66'
+    ID_FECHAR_DASHBOARD = 'aba_td_img_item_66'
     ID_ESPAÇO_BRANCO = 'lin1_col2'
+    ID_SENHA_ANTIGA = 'id_sc_field_old_pswd'
+    ID_SENHA = 'id_sc_field_pswd'
+    ID_CONFIRME_SENHA = 'id_sc_field_confirm_pswd'
+    ID_OK_ALTERAR_SENHA = 'sub_form_b'
+    XPATH_DETALHES_MENSAGENS_SISTEMA = '//tr[@id="SC_ancor1"]/td/table/tbody/tr/td/a'
 
 class NLPesquisadorPage(Browser):
 
+    obj_login = Login()
+
     def clicar_branco(self):
-        self.driver.find_element(By.ID, 'aba_td_txt_item_5').click()
+        self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_ESPAÇO_BRANCO).click()
 
     def pesquisador(self):
         pesquisador = self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_PESQUISADOR)
@@ -61,4 +68,16 @@ class NLPesquisadorPage(Browser):
             self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_FECHAR_MENSAGEM_SISTEMA).click()
         if fechar_dashboard:
             self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_FECHAR_DASHBOARD).click()
+    
+    def alterar_senha(self, nova_senha, confirme_nova_senha):
+        senha_antiga = self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_SENHA_ANTIGA)
+        senha_antiga.send_keys(self.obj_login.SENHA)
+        senha = self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_SENHA)
+        senha.send_keys(nova_senha)
+        confirme_senha = self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_CONFIRME_SENHA)
+        confirme_senha.send_keys(confirme_nova_senha)
+        self.driver.find_element(By.ID, NLPesquisadorPageLocator.ID_OK_ALTERAR_SENHA).click()
+
+    def acessar_detalhes_mensagens(self):
+        self.driver.find_element(By.XPATH, NLPesquisadorPageLocator.XPATH_DETALHES_MENSAGENS_SISTEMA).click()
                       
